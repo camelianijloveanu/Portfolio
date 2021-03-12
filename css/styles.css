@@ -28,9 +28,9 @@ main {
 }
 
 h1 {
-	font-weight: 800;
-	font-size: 20px;
-	line-height: 1.6;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 1.6;
   box-sizing: border-box;
 }
 head {
@@ -39,9 +39,9 @@ head {
   box-sizing: border-box;
 }
 header {
-	font-size: 15px;
-	font-weight: var(--font-weight);
-	line-height: 1.0;
+  font-size: 15px;
+  font-weight: var(--font-weight);
+  line-height: 1.0;
   box-sizing: border-box;
 }
 
@@ -187,8 +187,8 @@ button:hover, button:focus {
 }
 
 .standard-label{
-	font-size: 16px;
-	font-weight: 600;
+  font-size: 16px;
+  font-weight: 600;
 }
 .button {
   font-size: 16px;
