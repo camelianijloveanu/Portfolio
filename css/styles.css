@@ -201,6 +201,7 @@ button:hover, button:focus {
   color: var(--black);
   text-decoration: none;
   padding: 10px;
+  padding-bottom: 10px;
   border-radius: 3px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   transition: 0.2s opacity;
