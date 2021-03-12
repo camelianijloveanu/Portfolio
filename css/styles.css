@@ -5,7 +5,7 @@ Secondary color(cream):#e6d09f
 */
 :root {
   --background-color: #FFFFFF;
-  --primary-color: #bf9063;
+  --primary-color: #987554;
   --secondary-color: #e6d09f;
   --black: #000000;
   --font-weight: 400;
@@ -26,22 +26,22 @@ main {
   box-sizing: border-box;
   padding-bottom: 1px;
 }
-
 h1 {
-	font-weight: 800;
-	font-size: 20px;
-	line-height: 1.6;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 1.6;
   box-sizing: border-box;
 }
+
 head {
   font-size: 30px;
   font-weight: 700;
   box-sizing: border-box;
 }
 header {
-	font-size: 15px;
-	font-weight: var(--font-weight);
-	line-height: 1.0;
+  font-size: 15px;
+  font-weight: var(--font-weight);
+  line-height: 1.0;
   box-sizing: border-box;
 }
 
@@ -88,9 +88,6 @@ header {
   margin: 0 auto;
   text-align: center;
   height: 800px;
-}
-.berlin-illustration {
-  max-width: 100%;
 }
 
 .container {
@@ -184,16 +181,21 @@ button:hover, button:focus {
   text-decoration: none;
 }
 
+.button__secondary {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+}
+
 .standard-label{
-	font-size: 16px;
-	font-weight: 600;
+  font-size: 16px;
+  font-weight: 600;
 }
 .button {
   font-size: 16px;
   font-weight: var(--font-weight);
   cursor: pointer;
   background-color: var(--primary-color);
-  color: var(--black);
+  color: var(--background-color);
 }
 .button, button {
   border: none;
@@ -201,7 +203,7 @@ button:hover, button:focus {
   font-family: inherit;
   font-weight: var(--font-weight);
   background-color: var(--primary-color);
-  color: var(--black);
+  color: var(--background-color);
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
