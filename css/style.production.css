@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /* Colors used:
 Background color (white):#FFFFFF
 Primary color (light brown): #987554
@@ -92,9 +99,6 @@ header {
   margin: 0 auto;
   text-align: center;
   height: 800px;
-}
-.berlin-illustration {
-  max-width: 100%;
 }
 
 .container {
@@ -200,6 +204,11 @@ button:hover, button:focus {
   text-decoration: none;
 }
 
+.button__secondary {
+  background-color: #987554;
+  color: #FFFFFF;
+}
+
 .standard-label{
   font-size: 16px;
   font-weight: 600;
@@ -208,16 +217,16 @@ button:hover, button:focus {
   font-size: 16px;
   font-weight: 400;
   cursor: pointer;
-  background-color: #bf9063;
-  color: #000000;
+  background-color: #987554;
+  color: #FFFFFF;
 }
 .button {
   border: none;
   display: inline-block;
   font-family: inherit;
   font-weight: 400;
-  background-color: #bf9063;
-  color: #000000;
+  background-color: #987554;
+  color: #FFFFFF;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
@@ -231,8 +240,8 @@ button {
   display: inline-block;
   font-family: inherit;
   font-weight: 400;
-  background-color: #bf9063;
-  color: #000000;
+  background-color: #987554;
+  color: #FFFFFF;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
@@ -281,7 +290,7 @@ input[type="tel"] {
 }
 
 .grid__item {
-  background-color: #bf9063;
+  background-color: #987554;
   padding: 20px;
   width: auto;
 }
