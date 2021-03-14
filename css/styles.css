@@ -179,8 +179,9 @@ a:active {
   color: var(--black);
   text-decoration: none;
 }
-a .button {
-  color: var (--background-color);
+a.button {
+  color: var(--background-color);
+  background-color: var(--primary-color);
 }
 .navigation-list__item--active {
   text-decoration: none;
