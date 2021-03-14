@@ -5,13 +5,6 @@
 * Browsers: last 4 version
 */
 
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-
 /* Colors used:
 Background color (white):#FFFFFF
 Primary color (light brown): #987554
@@ -93,7 +86,7 @@ header {
 
 .profile__portrait {
   float: left;
-  width: 200px;
+  width: 220px;
   border-radius: 50%;
 }
 .profile {
@@ -124,7 +117,7 @@ header {
   width: 90%;
   margin: 0 auto;
   padding: 20px;
-  margin-bottom: 8%;
+  margin-bottom: 4%;
   text-align: center;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -408,7 +401,7 @@ input[type="tel"] {
   .profile {
     max-width: 100%;
     margin-bottom: 7%;
-    width: 60%;
+    width: 70%;
   }
   .container {
     max-width: 100%;
