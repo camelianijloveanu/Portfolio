@@ -107,8 +107,6 @@ header {
   max-width: 90%;
   margin: 0 auto;
   padding: 20px;
-  padding-top: 4%;
-  padding-bottom: 4%;
   text-align: center;
   align-self: center;
   border-radius: 5px;
@@ -166,7 +164,7 @@ td {
   text-align: center;
 }
 a {
-  text-decoration: underline;
+  text-decoration: none;
   color: var(--black);
 }
 
@@ -181,21 +179,11 @@ a:active {
   color: var(--black);
   text-decoration: none;
 }
-
-button:hover, button:focus {
-  cursor: pointer;
-  opacity: 0.8;
-  text-decoration: none;
-  color: var(--background-color);
+a .button {
+  color: var (--background-color);
 }
-
 .navigation-list__item--active {
   text-decoration: none;
-}
-
-.button__secondary {
-  background-color: var(--primary-color);
-  color: var(--background-color);
 }
 
 .standard-label{
@@ -209,7 +197,7 @@ button:hover, button:focus {
   background-color: var(--primary-color);
   color: var(--background-color);
 }
-.button, button {
+.button {
   border: none;
   display: inline-block;
   font-family: inherit;
@@ -223,8 +211,6 @@ button:hover, button:focus {
   transition: 0.2s opacity;
 }
 
-button:hover,
-button:focus,
 .button:hover,
 .button:focus {
   cursor: pointer;

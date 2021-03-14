@@ -1,4 +1,9 @@
-
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
 
 /* Colors used:
 Background color (white):#FFFFFF
@@ -113,8 +118,6 @@ header {
   max-width: 90%;
   margin: 0 auto;
   padding: 20px;
-  padding-top: 4%;
-  padding-bottom: 4%;
   text-align: center;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -184,7 +187,7 @@ td {
   text-align: center;
 }
 a {
-  text-decoration: underline;
+  text-decoration: none;
   color: #000000;
 }
 
@@ -199,28 +202,11 @@ a:active {
   color: #000000;
   text-decoration: none;
 }
-
-button:hover {
-  cursor: pointer;
-  opacity: 0.8;
-  text-decoration: none;
-  color: #FFFFFF;
+a .button {
+  color: var (--background-color);
 }
-
-button:focus {
-  cursor: pointer;
-  opacity: 0.8;
-  text-decoration: none;
-  color: #FFFFFF;
-}
-
 .navigation-list__item--active {
   text-decoration: none;
-}
-
-.button__secondary {
-  background-color: #987554;
-  color: #FFFFFF;
 }
 
 .standard-label{
@@ -249,24 +235,7 @@ button:focus {
   -o-transition: 0.2s opacity;
   transition: 0.2s opacity;
 }
-button {
-  border: none;
-  display: inline-block;
-  font-family: inherit;
-  font-weight: 400;
-  background-color: #987554;
-  color: #FFFFFF;
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 3px;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
-  -webkit-transition: 0.2s opacity;
-  -o-transition: 0.2s opacity;
-  transition: 0.2s opacity;
-}
 
-button:hover,
-button:focus,
 .button:hover,
 .button:focus {
   cursor: pointer;
