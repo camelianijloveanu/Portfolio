@@ -58,7 +58,7 @@ header {
 .page-header__item {
   padding: 2px;
   flex: 0 1 200px;
-  width: 300px;
+  width: 30%;
   height: 70px;
 }
 .page-header__item:last-child {
@@ -100,7 +100,6 @@ header {
   text-align: left;
   background-color: var(--secondary-color);
   padding: 20px;
-  padding-top: 4%;
   border-radius: 5px;
 }
 
@@ -191,10 +190,15 @@ a.button {
 .navigation-list__item--active:hover {
   text-decoration: none;
 }
+
+.navigation-list__item:active {
+  text-decoration: none;
+}
 .navigation-list__item:hover {
   text-decoration: none;
 }
-.navigation-list__item:active {
+
+#current {
   text-decoration: none;
 }
 
@@ -231,7 +235,7 @@ a.button {
 }
 
 input [type="text"], textarea {
-  width: 300px;
+  width: 100%;
   padding: 12px;
   border: 1px solid grey;
   box-sizing: border-box;
@@ -241,7 +245,7 @@ input [type="text"], textarea {
 }
 
 input[type="email"] {
-  width: 300px;
+  width: 100%;
   padding: 5px;
   margin: auto;
   box-sizing: border-box;
@@ -249,7 +253,7 @@ input[type="email"] {
   border-radius: 4px;
 }
 input[type="tel"] {
-  width: 300px;
+  width: 100%;
   padding: 5px;
   margin: auto;
   box-sizing: border-box;
@@ -329,6 +333,9 @@ input[type="tel"] {
   .container {
     max-width: 100%;
   }
+  .page-header__item {
+    max-width: 100%;
+  }
     main {
     max-width: 100%;
   }
@@ -357,6 +364,9 @@ input[type="tel"] {
     max-width: 100%;
     font-size: 15px;
   }
+  .page-header__item {
+    max-width: 100%;
+  }
 
 }
 @media all and (max-width: 750px) {
@@ -377,6 +387,9 @@ input[type="tel"] {
     max-width: 100%;
   }
   .berlin-illustration {
+    max-width: 100%;
+  }
+  .page-header__item {
     max-width: 100%;
   }
   main {
