@@ -109,9 +109,10 @@ header {
 }
 
 .page-footer__item {
-  width: 30px;
-  height: 30px;
-
+  width: 40px;
+  height: 40px;
+  padding-right: 3px;
+  padding-left: 3px;
 }
 
 img:hover {
