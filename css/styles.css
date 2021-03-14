@@ -185,14 +185,14 @@ a.button {
   background-color: var(--primary-color);
 }
 .navigation-list__item--active {
-  text-decoration: underline;
+  text-decoration: none;
 }
 .navigation-list__item--active:hover {
   text-decoration: none;
 }
 
-.navigation-list__item:active {
-  text-decoration: none;
+.navigation-list__item {
+  text-decoration: underline;
 }
 .navigation-list__item:hover {
   text-decoration: none;
@@ -201,7 +201,6 @@ a.button {
 #current {
   text-decoration: none;
 }
-
 
 .standard-label{
 	font-size: 16px;
