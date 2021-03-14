@@ -76,7 +76,6 @@ header {
 
 .profile__portrait {
   float: left;
-  height: auto;
   max-width: 100%;
   width: 250px;
   border-radius: 50%;
@@ -109,7 +108,7 @@ header {
   width: 90%;
   margin: 0 auto;
   padding: 20px;
-  padding-bottom: 6%;
+  margin-bottom: 6%;
   text-align: center;
   align-self: center;
   border-radius: 5px;
