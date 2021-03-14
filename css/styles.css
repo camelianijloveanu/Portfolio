@@ -104,10 +104,11 @@ header {
 }
 
 .grid__container {
-  max-width: 70%;
+  max-width: 90%;
   margin: 0 auto;
   padding: 20px;
   padding-top: 4%;
+  padding-bottom: 4%;
   text-align: center;
   align-self: center;
   border-radius: 5px;
@@ -165,7 +166,7 @@ td {
   text-align: center;
 }
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: var(--black);
 }
 
@@ -178,11 +179,14 @@ a:hover, a:focus {
 }
 a:active {
   color: var(--black);
+  text-decoration: none;
 }
 
 button:hover, button:focus {
   cursor: pointer;
   opacity: 0.8;
+  text-decoration: none;
+  color: var(--background-color);
 }
 
 .navigation-list__item--active {
@@ -282,7 +286,7 @@ input[type="tel"] {
 }
 @media all and (min-width: 500px) and (max-width: 750px){
   .grid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 }
 @media all and (max-width: 750px) {
