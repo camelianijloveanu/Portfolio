@@ -100,6 +100,7 @@ header {
   text-align: left;
   background-color: var(--secondary-color);
   padding: 20px;
+  padding-top: 4%;
   border-radius: 5px;
 }
 
@@ -107,6 +108,7 @@ header {
   max-width: 90%;
   margin: 0 auto;
   padding: 20px;
+  padding-bottom: 6%;
   text-align: center;
   align-self: center;
   border-radius: 5px;
@@ -184,8 +186,18 @@ a.button {
   background-color: var(--primary-color);
 }
 .navigation-list__item--active {
+  text-decoration: underline;
+}
+.navigation-list__item--active:hover {
   text-decoration: none;
 }
+.navigation-list__item:hover {
+  text-decoration: none;
+}
+.navigation-list__item:active {
+  text-decoration: none;
+}
+
 
 .standard-label{
 	font-size: 16px;
