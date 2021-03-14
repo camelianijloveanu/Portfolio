@@ -329,6 +329,7 @@ input[type="tel"] {
   }
   .profile {
     max-width: 100%;
+    margin-bottom: 5%;
   }
   .container {
     max-width: 100%;
@@ -336,7 +337,7 @@ input[type="tel"] {
   .page-header__item {
     max-width: 100%;
   }
-    main {
+  main {
     max-width: 100%;
   }
   body {
@@ -353,6 +354,7 @@ input[type="tel"] {
   }
   .profile {
     max-width: 100%;
+    margin-bottom: 5%;
   }
   .berlin-illustration {
     max-width: 100%;
@@ -379,6 +381,7 @@ input[type="tel"] {
   }
   .profile {
     max-width: 100%;
+    margin-bottom: 5%;
   }
   h1 {
     font-size: 22px;
