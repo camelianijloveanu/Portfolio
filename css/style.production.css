@@ -1,4 +1,9 @@
-
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
 
 /* Colors used:
 Background color (white):#FFFFFF
@@ -21,7 +26,7 @@ body, html {
 
 main {
   width: 100%;
-  height: auto;
+  height: 300px;
   padding-top: 4%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -90,6 +95,7 @@ header {
 .profile {
   max-width: 700px;
   margin: 0 auto;
+  margin-bottom: 5%;
   text-align: center;
 }
 
@@ -103,6 +109,7 @@ header {
 .container {
   width: 500px;
   margin: 0 auto;
+  margin-top: 5%;
   text-align: left;
   background-color: #e6d09f;
   padding: 20px;
@@ -203,14 +210,14 @@ a.button {
   background-color: #987554;
 }
 .navigation-list__item--active {
-  text-decoration: underline;
+  text-decoration: none;
 }
 .navigation-list__item--active:hover {
   text-decoration: none;
 }
 
-.navigation-list__item:active {
-  text-decoration: none;
+.navigation-list__item {
+  text-decoration: underline;
 }
 .navigation-list__item:hover {
   text-decoration: none;
@@ -219,7 +226,6 @@ a.button {
 #current {
   text-decoration: none;
 }
-
 
 .standard-label{
   font-size: 16px;

@@ -84,6 +84,7 @@ header {
 .profile {
   max-width: 700px;
   margin: 0 auto;
+  margin-bottom: 5%;
   text-align: center;
 }
 
@@ -97,6 +98,7 @@ header {
 .container {
   width: 500px;
   margin: 0 auto;
+  margin-top: 5%;
   text-align: left;
   background-color: var(--secondary-color);
   padding: 20px;
