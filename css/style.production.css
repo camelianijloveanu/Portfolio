@@ -86,8 +86,7 @@ header {
 
 .profile__portrait {
   float: left;
-  max-width: 100%;
-  width: 250px;
+  width: 200px;
   border-radius: 50%;
 }
 .profile {
@@ -118,7 +117,7 @@ header {
   width: 90%;
   margin: 0 auto;
   padding: 20px;
-  margin-bottom: 10%;
+  margin-bottom: 8%;
   text-align: center;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -401,7 +400,8 @@ input[type="tel"] {
   }
   .profile {
     max-width: 100%;
-    margin-bottom: 5%;
+    margin-bottom: 7%;
+    width: 60%;
   }
   .container {
     max-width: 100%;
@@ -561,8 +561,7 @@ header {
 
 .profile__portrait {
   float: left;
-  max-width: 100%;
-  width: 250px;
+  width: 200px;
   border-radius: 50%;
 }
 .profile {
@@ -593,7 +592,7 @@ header {
   width: 90%;
   margin: 0 auto;
   padding: 20px;
-  margin-bottom: 10%;
+  margin-bottom: 8%;
   text-align: center;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -876,7 +875,8 @@ input[type="tel"] {
   }
   .profile {
     max-width: 100%;
-    margin-bottom: 5%;
+    margin-bottom: 7%;
+    width: 60%;
   }
   .container {
     max-width: 100%;
