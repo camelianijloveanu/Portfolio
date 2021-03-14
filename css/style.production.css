@@ -1,3 +1,9 @@
+/* Colors used:
+Background color (white):#FFFFFF
+Primary color (light brown): #987554
+Secondary color(cream):#e6d09f
+*/
+
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -7,19 +13,23 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+body, html {
+  height: 100%;
+}
 
 main {
   width: 100%;
   height: 300px;
+  padding-top: 4%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding-bottom: 1px;
 }
 
 h1 {
-	font-weight: 800;
-	font-size: 20px;
-	line-height: 1.6;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 1.6;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -30,9 +40,9 @@ head {
           box-sizing: border-box;
 }
 header {
-	font-size: 15px;
-	font-weight: 400;
-	line-height: 1.0;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -89,7 +99,7 @@ header {
 }
 
 .container {
-  max-width: 500px;
+  max-width: 30%;
   margin: 0 auto;
   text-align: left;
   background-color: #e6d09f;
@@ -98,9 +108,10 @@ header {
 }
 
 .grid__container {
-  max-width: 100%;
+  max-width: 70%;
   margin: 0 auto;
-  padding: 5px;
+  padding: 20px;
+  padding-top: 4%;
   text-align: center;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -109,9 +120,10 @@ header {
 }
 
 .page-footer__item {
-  width: 30px;
-  height: 30px;
-
+  width: 40px;
+  height: 40px;
+  padding-right: 3px;
+  padding-left: 3px;
 }
 
 img:hover {
@@ -148,9 +160,11 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding: 10px 0;
+  position: relative;
   text-align: center;
-  bottom: 0px;
-  position: static;
+  top: 20%;
+  width: 100%;
 }
 
 
@@ -197,8 +211,8 @@ button:hover, button:focus {
 }
 
 .standard-label{
-	font-size: 16px;
-	font-weight: 600;
+  font-size: 16px;
+  font-weight: 600;
 }
 .button {
   font-size: 16px;
