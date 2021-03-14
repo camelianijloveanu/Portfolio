@@ -1,4 +1,5 @@
 
+
 /* Colors used:
 Background color (white):#FFFFFF
 Primary color (light brown): #987554
@@ -61,7 +62,7 @@ header {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 200px;
           flex: 0 1 200px;
-  width: 300px;
+  width: 30%;
   height: 70px;
 }
 .page-header__item:last-child {
@@ -105,7 +106,6 @@ header {
   text-align: left;
   background-color: #e6d09f;
   padding: 20px;
-  padding-top: 4%;
   border-radius: 5px;
 }
 
@@ -401,6 +401,9 @@ input[type="tel"] {
   .container {
     max-width: 100%;
   }
+  .page-header__item {
+    max-width: 100%;
+  }
     main {
     max-width: 100%;
   }
@@ -411,7 +414,7 @@ input[type="tel"] {
 @media all and (min-width: 500px) and (max-width: 750px){
   .grid {
     -ms-grid-columns: 1fr 20px 1fr;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
   .container {
     max-width: 100%;
@@ -428,6 +431,9 @@ input[type="tel"] {
   body {
     max-width: 100%;
     font-size: 15px;
+  }
+  .page-header__item {
+    max-width: 100%;
   }
 
 }
@@ -449,6 +455,9 @@ input[type="tel"] {
     max-width: 100%;
   }
   .berlin-illustration {
+    max-width: 100%;
+  }
+  .page-header__item {
     max-width: 100%;
   }
   main {
