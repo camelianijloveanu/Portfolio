@@ -87,6 +87,13 @@ header {
   text-align: center;
 }
 
+.meetapp-image {
+  height: auto;
+  max-width: 100%;
+  width: 90%;
+  border-radius: 5%;
+}
+
 .profile-about {
   max-width: 700px;
   margin: 0 auto;
