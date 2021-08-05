@@ -133,6 +133,7 @@ header {
   text-align: center;
   height: auto;
   padding: 20px;
+  border: 5px solid white;
 }
 
 .button {
@@ -294,6 +295,7 @@ button:hover, button:focus {
   background-color: #ffdfee;
   padding: 20px;
   width: auto;
+  border: 5px solid white;
 }
 
 .grid__item:last-child {
