@@ -80,6 +80,10 @@ header {
 .navigation-list {
   list-style-type: none;
 }
+
+.navigation-list__item {
+  font-weight: bold;
+}
 .navigation-list li {
   display: inline-block;
   margin-left: 15px;
