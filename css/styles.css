@@ -15,7 +15,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 20px;
   font-weight: var(--font-weight);
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.6;
   background: url(../img/background.jpg) no-repeat center center;
   background-attachment: fixed;
@@ -75,6 +75,7 @@ header {
 
 .navigation-list {
   list-style-type: none;
+  font-size: 18px;
 }
 
 .navigation-list__item {
@@ -104,7 +105,7 @@ header {
 .meetapp-image, .pokedex-image, .myflix-image, .angular-image {
   height: auto;
   max-width: 100%;
-  width: 90%;
+  width: 70%;
   border-radius: 5%;
 }
 
@@ -116,7 +117,7 @@ header {
 }
 
 .profile-about {
-  max-width: 700px;
+  max-width: 90%;
   margin: 0 auto;
   text-align: center;
   height: auto;
@@ -166,6 +167,7 @@ button:focus,
 .page-wrapper {
   min-height: 100%;
   padding-top: 2%;
+  padding: 10px;
 }
 
 .grid__container {
@@ -198,8 +200,8 @@ section:hover {
 }
 
 footer {
-  font-weight: var(--font-weight);
-  font-size: 16px;
+  font-weight: bold;
+  font-size: 20px;
   height: 20px;
   box-sizing: border-box;
   align-self: center;
@@ -254,8 +256,8 @@ button:hover, button:focus {
   font-size: 16px;
   font-weight: var(--font-weight);
   cursor: pointer;
-  background-color: var(--primary-color);
-  color: var(--background-color);
+  background-color: pink;
+  color: black;
 }
 
 .grid__item {
@@ -304,6 +306,7 @@ button:hover, button:focus {
 
   .profile-about-me {
    height: auto;
+   width: 1000px;
   }
 
   .profile__portrait{

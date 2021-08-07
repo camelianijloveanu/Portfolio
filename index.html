@@ -8,7 +8,6 @@
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style.production.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">	
 </head>
@@ -22,24 +21,109 @@
 					<a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a>
 				</li>
 				<li role="presentation" >
-					<a href="html/about.html" role="menuitem" class="navigation-list__item">About me</a>
+					<a href="#about" role="menuitem" class="navigation-list__item">About me</a>
 				</li>
 				<li role="presentation" >
-					<a href="html/contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+					<a href="#contact" role="menuitem" class="navigation-list__item">Contact</a>
 				</li>
 				<li role="presentation">
-					<a href="html/work.html" role="menuitem" class="navigation-list__item">Work</a>
+					<a href="#work" role="menuitem" class="navigation-list__item">Work</a>
 				</li>
 			</ul>
 		</nav>
 	</header>
-	<div class="page-wrapper">
-			<main class="profile-about">
-			<h1 class="welcome">Welcome</h1>
+	<div class="page-wrapper" style="padding-top: 10%;">
+			<main id="about" class="profile-about-me">
+				<div>
+					<img src="img/profile-picture.jpg" class="profile__portrait" alt="Camelia Nijloveanu Portrait">
+				</div>
+					<p>Hi, my name is Camelia! I am a developer with a background in education and aviation, with
+						a good eye for details. With my previous experience, I gained some great skills that help me
+						while programming my projects such as writing clean code keeping it organized, an ability to
+						solve problems under pressure in a timely manner and to work in a team. I decided to make
+						this career change because I wanted to challenge myself but also because technology is a
+						growing and fascinating industry. I’m an avid learner and my goal is to work as a developer
+						for a big company in the travel or e-commerce industry where I can further grow professionally.</p>
+						I am 26 years old and I've lived in 3 countries so far, currently
+						based in Berlin and open to collaborations or job offers. </p> <br>
+						<h1 style="text-align: center;">Key skills:</h1>
+                <ul class="features" style="list-style-type: none; font-weight: bold;">
+                    <li>HTML and CSS</li>
+                    <li>Javascript</li>
+                    <li>Server-Side Programming and Node.js</li>
+                    <li>Client-Side Programming and React</li>
+                    <li>Testing in the Development Process</li>
+                    <li>Native App Development and React Native</li>
+                    <li>Collaboration and Documentation</li>
+                </ul>
+					<a class="button"  href="https://github.com/cnjlv" target="_blank">Check out some of my code</a> 
+					<a class="button"  href="files/cv.pdf" target="_blank">Download my CV</a>
 			</main>
 		</div>
+		<div style="padding-top: 250px; width: 70%; padding-left: 29%;" class="page-wrapper">
+			<main id="contact" class="profile-about-me">
+			  <p>
+				Feel free to contact me using the info below, I am looking forward
+				to talking to you and hopefully create a project with or for you.
+			  </p>
+			  <p style="font-weight: bold;">
+			  Camelia Nijloveanu<br>
+			  Berlin<br>
+			  Germany<br>
+			  <br>
+			  <a href="mailto:camelianijloveanu@gmail.com">Send me an email</a><br>
+			  <a href="tel:+34642753782">+34642753782</a> 
+			</p>
+			</main>
+		  <script src="../js/tota11y.min.js"></script>
+		  
+		  </div>
+		<div class="page-wrapper2">
+			<container class="grid__container">
+				<h1 id="work" style="font-size: 30px;">Work</h1>
+				<container class="grid">
+					<section class="grid__item">
+						<h2>Meet App</h2>
+						<p>Serverless, progressive web application (PWA) with React using a test-driven
+							development (TDD) technique. The application uses the Google Calendar API to fetch
+							upcoming events.</p>
+						<a href="https://github.com/cnjlv/meet" class="navigation-list__item" target="_blank">See project on GitHub</a> <br>
+						<a href="html/meet.html" role="menuitem" class="navigation-list__item">See more details</a>
+					</section>
+					<section class="grid__item">
+						<h2>Pokedex</h2>
+						<p>Small web app built using with HTML, CSS and JavaScript. It fetches data from a public API and displays the information
+							in a Javascrip modal.</p>
+						<a href="https://github.com/cnjlv/Pokedex" class="navigation-list__item" target="_blank">See project on GitHub</a> <br>
+						<a href="html/pokedex.html" role="menuitem" class="navigation-list__item">See more details</a>
+					</section>
+					<section class="grid__item">
+						<h2>myFlix React</h2>
+						<p>This is a project using React to build the client side of an application. 
+							The purpose is to allow users to access data about movies, register and add or remove movies from their favorites list.</p>
+						<a href="https://github.com/cnjlv/movie_api" class="navigation-list__item" target="_blank">See project on GitHub</a> <br>
+						<a href="html/my_flix.html" role="menuitem" class="navigation-list__item">See more details</a>
+					</section>
+					<section class="grid__item">
+						<h2>Chat App</h2>
+						<p>A chat app for mobile devices using React Native that will
+							provide users with a chat interface and options to share images and their
+							location.</p>
+						<a href="https://github.com/cnjlv/Chat-App" class="navigation-list__item" target="_blank">See project on GitHub</a> <br>
+						<a href="html/chat_app.html" role="menuitem" class="navigation-list__item">See more details</a>
+					</section>
+					<section class="grid__item">
+						<h2>myFlix Angular Client</h2>
+						<p>myFlix Angular is an Angular built application based on a Restful API and Mongo database. It fetches information 
+							about movies from the API and allows registered users to access this data.  </p>
+						<a href="https://github.com/cnjlv/myFlix-Angular-client" class="navigation-list__item" target="_blank">See project on GitHub</a> <br>
+						<a href="html/angular.html" role="menuitem" class="navigation-list__item">See more details</a>
+					</section>
+				</container>
+			</container>
+			</div>
 <footer class="page-footer">
-	<p>Find me on</p>
+	<p style="font-weight: bold;">Find me on</p>
 	<nav>
 		<a title="link to instagram" href="https://www.instagram.com/caminjlv/" target="_blank">
 		<img  src="img/instagram_icon.svg" alt="Instagram" class="page-footer__item">

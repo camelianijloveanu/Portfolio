@@ -8,7 +8,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 20px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.6;
   background: url(../img/background.jpg) no-repeat center center;
   background-attachment: fixed;
@@ -79,6 +79,7 @@ header {
 
 .navigation-list {
   list-style-type: none;
+  font-size: 18px;
 }
 
 .navigation-list__item {
@@ -108,7 +109,7 @@ header {
 .meetapp-image, .pokedex-image, .myflix-image, .angular-image {
   height: auto;
   max-width: 100%;
-  width: 90%;
+  width: 70%;
   border-radius: 5%;
 }
 
@@ -128,12 +129,13 @@ header {
 
 .profile-about-me {
   background-color: #ffdfee;
-  max-width: 700px;
+  max-width: 90%;
   margin: 0 auto;
   text-align: center;
   height: auto;
   padding: 20px;
   border: 5px solid white;
+  
 }
 
 .button {
@@ -223,8 +225,8 @@ section:hover {
 }
 
 footer {
-  font-weight: 400;
-  font-size: 16px;
+  font-weight: bold;
+  font-size: 20px;
   height: 20px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -287,8 +289,8 @@ button:hover, button:focus {
   font-size: 16px;
   font-weight: 400;
   cursor: pointer;
-  background-color: #ffdfee;
-  color: #FFFFFF;
+  background-color: pink;
+  color: black;
 }
 
 .grid__item {
@@ -343,6 +345,7 @@ button:hover, button:focus {
 
   .profile-about-me {
    height: auto;
+   width: 1000px;
   }
 
   .profile__portrait{
